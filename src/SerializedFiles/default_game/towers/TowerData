@@ -1,0 +1,1 @@
+{"name":"tower 1","weaponName":"weapon 1","buyPrice":40,"sellPrice":100,"maxHealth":1000,"imagePath":"src/resources/boss.png","collisionRadius":2,"initialLocations":[{"100":10,"20":50}],"movement":"fast as fuck"}

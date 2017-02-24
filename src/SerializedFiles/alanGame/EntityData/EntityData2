@@ -1,0 +1,50 @@
+{
+  "myName": "projectile",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "us"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "0.5",
+        "myValidTerrains": "grass, water",
+        "myHeading": "0",
+        "myImagePath": "resources/shuriken.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "true",
+        "explodesOnGoal": "true",
+        "myMaxDistance": "600",
+        "explodesAtMaxDistance": "true",
+        "myMoveSpeed": "5",
+        "myTurnSpeed": "45",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "0"
+      },
+      "myComponentName": "CollidableComponent"
+    },
+    "DamageDealingComponent": {
+   	  "myFields": {
+		"myDamage": "2",
+		"myDamageArc": "360",
+		"myDamageRadius": "50",
+		"myDamageStrategy": "ExponentialDamageStrategy",
+		"explodesOnEnemies": "true",
+		"explodesOnAllies": "false",
+		"diesOnExplosion": "true"
+      },
+      "myComponentName": "DamageDealingComponent"
+    }
+  }
+}

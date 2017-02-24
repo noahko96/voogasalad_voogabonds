@@ -1,0 +1,19 @@
+{
+  "myName": "Entity",
+  "myComponents": {
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "2",
+        "myValidTerrains": "purp",
+        "myImagePath": "resources/boss.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "100"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "myName": "Tower",
+  "myComponents": {
+    "UpgradableComponentData": {
+      "myFields": {
+        "myUpgradesMap": "hi"
+      },
+      "myComponentName": "UpgradableComponentData"
+    },
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "supdawg"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "ControllableComponent": {
+      "myFields": {},
+      "myComponentName": "ControllableComponent"
+    },
+    "HealthComponent": {
+      "myFields": {
+        "myMaxHealth": "100",
+        "explodeOnDeath": "True"
+      },
+      "myComponentName": "HealthComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "10",
+        "myValidTerrains": "blueish",
+        "myImagePath": "resources\\cookie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "CreatorComponent": {
+      "myFields": {
+        "mySpawnName": "Projectile",
+        "mySpawningStrategy": "BasicSpawnStrategy",
+        "myTimeBetweenSpawns": "10"
+      },
+      "myComponentName": "CreatorComponent"
+    },
+    "SellableComponentData": {
+      "myFields": {
+        "mySellValue": "8"
+      },
+      "myComponentName": "SellableComponentData"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "10"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

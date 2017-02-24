@@ -1,0 +1,25 @@
+{
+  "myName": "Enemy",
+  "myComponents": {
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "True",
+        "myMaxDistance": "5",
+        "explodesAtMaxDistance": "True",
+        "myMoveSpeed": "5",
+        "myTurnSpeed": "5",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "2",
+        "myValidTerrains": "purp",
+        "myImagePath": "resources/cookie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    }
+  }
+}

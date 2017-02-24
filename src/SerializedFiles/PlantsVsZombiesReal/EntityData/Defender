@@ -1,0 +1,37 @@
+{
+  "myName": "Defender",
+  "myComponents": {
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "Grass",
+        "myImagePath": "resources\\plant1.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "CreatorComponent": {
+      "myFields": {
+        "mySpawnName": "Projectile",
+        "mySpawningStrategy": "BasicSpawnStrategy",
+        "homingProjectiles": "True",
+        "myTimeBetweenSpawns": "10"
+      },
+      "myComponentName": "CreatorComponent"
+    },
+    "TargetingComponent": {
+      "myFields": {
+        "myTargetsEnemies": "True",
+        "myTargetingStrategy": "BadTargetingStrategy",
+        "mySightRange": "600",
+        "mySightWidth": "10"
+      },
+      "myComponentName": "TargetingComponent"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "1000"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "myName": "tower",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "us"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "grass",
+        "myImagePath": "resources/face-throwing-a-kiss.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "False",
+        "explodesOnGoal": "False",
+        "myMaxDistance": "1000",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "0",
+        "myTurnSpeed": "10",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CreatorComponent": {
+      "myFields": {
+        "mySpawnName": "heart",
+        "mySpawningStrategy": "BasicSpawnStrategy",
+        "homingProjectiles": "True",
+        "myTimeBetweenSpawns": "100"
+      },
+      "myComponentName": "CreatorComponent"
+    },
+    "TargetingComponent": {
+      "myFields": {
+        "myTargetsEnemies": "True",
+        "myTargetingStrategy": "BadTargetingStrategy",
+        "mySightRange": "2000",
+        "mySightWidth": "360"
+      },
+      "myComponentName": "TargetingComponent"
+    },
+    "SellableComponentData": {
+      "myFields": {
+        "mySellValue": "100"
+      },
+      "myComponentName": "SellableComponentData"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "200"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "myLevelList": [
+    {
+      "name": "0",
+      "waveDataList": [
+        {
+          "name": "Cool wave",
+          "waveEntity": "Awesome Tower1",
+          "timeBetweenEnemy": 20.0,
+          "timeUntilNextWave": 0.0,
+          "numEnemies": 1,
+          "spawnPointName": "spawnPoint",
+          "sinkPointName": "sinkPoint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+#vbox {
+-fx-background-color: #B3D7FF;
+-fx-background-radius: 15px;
+-fx-border-color: #86A1BF;
+-fx-border-width: 2px;
+-fx-border-radius: 10px;
+-fx-padding: 10px;
+-fx-spacing: 2px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#button {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-background-color: #5A6B7F;
+-fx-font-size: 20px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#button-selected {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-background-color: #2D3640;
+-fx-font-size: 20px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#label {
+-fx-text-fill: #2D3640;
+-fx-font-size: 20px;
+}
+
+#hbox {
+-fx-spacing: 5px;
+-fx-background-color: #B3D7FF;
+}
+
+#background {
+-fx-background-color: #2D3640;
+-fx-tab-min-width: 100;
+-fx-hgap: 5px;
+}
+
+#tab {
+-fx-background-color: #A1C1E5;
+}
+
+#menu {
+-fx-background-color: #A1C1E5;
+-fx-background-radius: 5px;
+}
+
+#tabpane {
+-fx-background-color: #2D3640;
+}
+
+#menu-background {
+-fx-background-color: #A1C1E5;
+}
+
+#menu-vbox {
+-fx-background-color: #B3D7FF;
+-fx-background-radius: 15px;
+-fx-border-color: #86A1BF;
+-fx-border-width: 2px;
+-fx-border-radius: 10px;
+-fx-padding: 10px;
+-fx-spacing: 20px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#menu-combobox {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-background-color: #5A6B7F;
+-fx-font-size: 20px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#combobox {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-background-color: #5A6B7F;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#menu-textfield {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-font-size: 20px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#textfield {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 1px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#check-vbox {
+-fx-background-color: #2D3640;
+-fx-background-radius: 15px;
+-fx-border-color: #86A1BF;
+-fx-border-width: 2px;
+-fx-border-radius: 10px;
+-fx-padding: 10px;
+-fx-spacing: 2px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}
+
+#scrollpane {
+-fx-fit-to-width: true;
+-fx-fit-to-height: true;
+}
+
+#checkbox {
+-fx-color:black;
+-fx-fill:blue;
+-fx-label-padding: 5px;
+-fx-background-color: #A1C1E5;
+-fx-font-size: 20px;
+-fx-background-radius: 5px;
+-fx-effect: dropshadow(gaussian, black, 10, 0.0, 2, 2);
+}

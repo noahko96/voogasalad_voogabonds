@@ -1,0 +1,84 @@
+GameData
+Map<String, TowerData>
+Map<String, WeaponData>
+Map<String, ProjectileData>
+Map<String, EnemyData>
+List<Wave>
+MapData
+PlayerData
+
+
+
+
+TowerData
+String name
+String weaponName
+Int buyPrice
+Int sellPrice
+Int maxHealth
+List<Entry<String, Integer>> upgrades //(entries are upgradeName, upgradeCost)
+String imagePath
+List<Terrain> traversableTerrain
+Footprint collisionRadius
+List<Point> initialLocations
+MovementStrategy movement
+
+
+WeaponData
+String name
+String projectileName
+Double range
+Int fireRate
+
+
+ProjectileData
+String name
+String imagePath
+MovementStrategy movement
+Int maxRange
+Int areaOfEffectRadius
+DamageStrategy damage
+
+
+EnemyData
+String name
+String weaponName
+Int killReward
+Int maxHealth
+String imagePath
+List<Terrain> traversableTerrain
+Footprint collisionRadius
+MovementStrategy movement
+
+
+
+
+Wave
+Map<String, List<Entry<String, Integer>>> enemies
+Int timeBeforeNextWave
+
+
+	Map of spawn point names to the list of enemies that will spawn there and the delays between them.
+
+
+MapData
+Size of terrain (x and y size)
+String imagePath
+List<Point> spawnPoints
+List<Point> sinkPoints
+List<Terrain> terrainPolygons
+
+
+PlayerData
+Int startingLives
+Int startingCash
+String winStrategyName
+String loseStrategyName
+
+
+Terrain
+Type
+Point (X and Y location)
+ImagePath
+
+

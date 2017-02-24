@@ -1,0 +1,18 @@
+{
+  "myLevelList": [
+    {
+      "name": "Level 1",
+      "waveDataList": [
+        {
+          "name": "Wave",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 1.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 20,
+          "spawnPointName": "over",
+          "sinkPointName": "noah"
+        }
+      ]
+    }
+  ]
+}

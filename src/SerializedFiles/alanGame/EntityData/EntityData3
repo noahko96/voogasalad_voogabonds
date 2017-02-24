@@ -1,0 +1,54 @@
+{
+  "myName": "enemy",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "them"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "grass, water",
+        "myHeading": "0",
+        "myImagePath": "resources/balloon.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "true",
+        "explodesOnGoal": "false",
+        "myMaxDistance": "1000",
+        "explodesAtMaxDistance": "false",
+        "myMoveSpeed": "1",
+        "myTurnSpeed": "1",
+        "myMovementCalc": "PathMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "20"
+      },
+      "myComponentName": "CollidableComponent"
+    },
+    "HealthComponent": {
+      "myFields": {
+        "myCurrHealth": "5",
+        "myMaxHealth": "5",
+        "explodeOnDeath": "false"
+      },
+      "myComponentName": "HealthComponent"
+    },
+    "BountyComponent": {
+      "myFields": {
+        "myBountyValue": "7",
+        "myLivesToDestroy": "1",
+        "myPointValue": "90"
+      },
+      "myComponentName": "BountyComponent"
+    }
+  }
+}

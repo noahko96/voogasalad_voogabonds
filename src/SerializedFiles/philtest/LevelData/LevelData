@@ -1,0 +1,1 @@
+{"myLevelList":[{"name":"Level1","waveDataList":[{"name":"Wave","waveEntity":"testEntity","timeBetweenEnemy":1.0,"timeUntilNextWave":100.0,"numEnemies":200,"spawnPointName":"spawn point 1","sinkPointName":"Sink point 1"}]}]}

@@ -1,0 +1,1 @@
+{"myName":"tower","myComponents":{"PhysicalComponent":{"myFields":{"myImageSize":"50","myValidTerrains":"grass","myImagePath":"src/resources/boss.png"},"myComponentName":"PhysicalComponent"}}}

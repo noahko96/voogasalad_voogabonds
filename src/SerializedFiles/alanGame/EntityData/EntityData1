@@ -1,0 +1,54 @@
+{
+  "myName": "tower",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "us"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "grass",
+        "myHeading": "0",
+        "myImagePath": "resources/ninjamonkey.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "true",
+        "explodesOnGoal": "false",
+        "myMaxDistance": "400",
+        "myMoveSpeed": "0",
+        "myTurnSpeed": "1",
+        "myMovementCalc": "NoMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CreatorComponent": {
+      "myFields": {
+        "mySpawnName": "projectile",
+        "mySpawningStrategy": "BasicSpawnStrategy",
+        "myTimeBetweenSpawns": "100"
+      },
+      "myComponentName": "CreatorComponent"
+    },
+    "TargetingComponent": {
+      "myFields": {
+        "myTargetsEnemies": "true",
+        "myTargetingStrategy": "BadTargetingStrategy",
+        "mySightRange": "200",
+        "mySightWidth": "360"
+      },
+      "myComponentName": "TargetingComponent"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "100"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

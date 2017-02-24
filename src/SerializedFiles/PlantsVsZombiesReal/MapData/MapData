@@ -1,0 +1,494 @@
+{
+  "numXCells": 8,
+  "numYCells": 5,
+  "cellSize": 175,
+  "spawnPoints": {
+    "spawn2": [
+      {
+        "myX": 7.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      }
+    ],
+    "spawn1": [
+      {
+        "myX": 7.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      }
+    ],
+    "spawn4": [
+      {
+        "myX": 7.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      }
+    ],
+    "spawn3": [
+      {
+        "myX": 7.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      }
+    ],
+    "spawn5": [
+      {
+        "myX": 7.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      }
+    ]
+  },
+  "sinkPoints": {
+    "spawn1": [
+      {
+        "myX": 0.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      }
+    ],
+    "sink4": [
+      {
+        "myX": 0.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      }
+    ],
+    "sink3": [
+      {
+        "myX": 0.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      }
+    ],
+    "sink5": [
+      {
+        "myX": 0.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      }
+    ],
+    "sink2": [
+      {
+        "myX": 0.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      }
+    ]
+  },
+  "terrainList": [
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 3.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 4.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 7.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 5.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 4.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 2.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Grass",
+      "loc": {
+        "myX": 0.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 0.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 2.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 6.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 0.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 4.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 3.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 6.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 4.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 6.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 0.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 2.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 3.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 4.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 7.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 1.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 1.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 5.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 1.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 5.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 0.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 5.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 1.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 7.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 7.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 2.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 2.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 7.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 3.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 5.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 0.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 3.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 6.0,
+        "myY": 4.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 1.0,
+        "myY": 2.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    },
+    {
+      "type": "Ground",
+      "loc": {
+        "myX": 6.0,
+        "myY": 3.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x4d804dff",
+      "mySize": 175
+    }
+  ],
+  "validTerrain": {
+    "Grass": "0x4d804dff"
+  }
+}

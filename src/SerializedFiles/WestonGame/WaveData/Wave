@@ -1,0 +1,1 @@
+{"name":"Wave","waveEntity":"Enemy","timeBetweenEnemy":10.0,"timeUntilNextWave":75.0,"numEnemies":4,"spawnPointName":"spawn1","sinkPointName":"Sink1"}

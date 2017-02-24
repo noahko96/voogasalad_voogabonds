@@ -1,0 +1,40 @@
+{
+  "myName": "Projectile",
+  "myComponents": {
+    "DamageDealingComponent": {
+      "myFields": {
+        "explodesOnEnemies": "True",
+        "myDamageRadius": "15",
+        "explodesOnAllies": "False",
+        "diesOnExplosion": "True",
+        "myDamageArc": "15",
+        "myDamage": "30",
+        "myDamageStrategy": "ConstantDamageStrategy"
+      },
+      "myComponentName": "DamageDealingComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "10",
+        "myValidTerrains": "blueish",
+        "myImagePath": "resources\\boss.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "10"
+      },
+      "myComponentName": "CollidableComponent"
+    },
+    "TargetingComponent": {
+      "myFields": {
+        "myTargetsEnemies": "True",
+        "myTargetingStrategy": "BadTargetingStrategy",
+        "mySightRange": "40",
+        "mySightWidth": "40"
+      },
+      "myComponentName": "TargetingComponent"
+    }
+  }
+}

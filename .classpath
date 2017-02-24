@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="engine/controller/|engine/" kind="src" path="voogasalad_voogabonds/src"/>
+	<classpathentry excluding="controller/" kind="src" path="voogasalad_voogabonds/src/engine"/>
+	<classpathentry kind="src" path="voogasalad_voogabonds/src/engine/controller"/>
+	<classpathentry kind="lib" path="voogasalad_voogabonds/resources/gson-2.6.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="voogasalad_voogabonds/resources/gson-2.6.2-sources.jar"/>
+	<classpathentry kind="lib" path="voogasalad_voogabonds/resources/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="voogasalad_voogabonds/resources/gson-2.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

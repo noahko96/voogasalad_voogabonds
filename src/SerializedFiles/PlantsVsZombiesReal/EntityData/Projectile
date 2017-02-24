@@ -1,0 +1,43 @@
+{
+  "myName": "Projectile",
+  "myComponents": {
+    "DamageDealingComponent": {
+      "myFields": {
+        "explodesOnEnemies": "True",
+        "myDamageRadius": "100",
+        "explodesOnAllies": "False",
+        "diesOnExplosion": "True",
+        "myDamageArc": "10",
+        "myDamage": "500",
+        "myDamageStrategy": "BinaryDamageStrategy"
+      },
+      "myComponentName": "DamageDealingComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "0.2",
+        "myValidTerrains": "Grass",
+        "myImagePath": "resources\\cookie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "False",
+        "myMaxDistance": "100000",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "100",
+        "myTurnSpeed": "100",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "100"
+      },
+      "myComponentName": "CollidableComponent"
+    }
+  }
+}

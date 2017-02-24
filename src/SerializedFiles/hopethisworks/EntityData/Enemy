@@ -1,0 +1,52 @@
+{
+  "myName": "Enemy",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "losers"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "HealthComponent": {
+      "myFields": {
+        "myMaxHealth": "100",
+        "explodeOnDeath": "True"
+      },
+      "myComponentName": "HealthComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "True",
+        "myMaxDistance": "20",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "20",
+        "myTurnSpeed": "20",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "10",
+        "myValidTerrains": "blueish",
+        "myImagePath": "resources\\cookie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "5"
+      },
+      "myComponentName": "CollidableComponent"
+    },
+    "BountyComponent": {
+      "myFields": {
+        "myBountyValue": "200",
+        "myLivesToDestroy": "15",
+        "myPointValue": "30"
+      },
+      "myComponentName": "BountyComponent"
+    }
+  }
+}

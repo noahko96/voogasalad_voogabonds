@@ -1,0 +1,3 @@
+{"name":"enemy 1","weaponName":"weapon 1","imagePath":"src/resources/boss.png","killReward":100,"maxHealth":100,"collisionRadius":5,"speed":10}
+
+asdf

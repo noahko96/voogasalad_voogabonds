@@ -1,0 +1,54 @@
+{
+  "myLevelList": [
+    {
+      "name": "Level 1",
+      "waveDataList": [
+        {
+          "name": "Wave1",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 5.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 20,
+          "spawnPointName": "spawn1",
+          "sinkPointName": "sink1"
+        },
+        {
+          "name": "Wave2",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 1.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 20,
+          "spawnPointName": "spawn2",
+          "sinkPointName": "sink2"
+        },
+        {
+          "name": "Wave3",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 1.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 20,
+          "spawnPointName": "spawn3",
+          "sinkPointName": "sink3"
+        },
+        {
+          "name": "Wave4",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 20.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 5,
+          "spawnPointName": "spawn4",
+          "sinkPointName": "sink4"
+        },
+        {
+          "name": "Wave5",
+          "waveEntity": "Enemy",
+          "timeBetweenEnemy": 10.0,
+          "timeUntilNextWave": 100.0,
+          "numEnemies": 10,
+          "spawnPointName": "spawn5",
+          "sinkPointName": "sink5"
+        }
+      ]
+    }
+  ]
+}

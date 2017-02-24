@@ -1,0 +1,51 @@
+{
+  "myName": "Awesome Tower1",
+  "myComponents": {
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "50",
+        "myValidTerrains": "grass, ice, steel, dark, fairy",
+        "myHeading": "0",
+        "myImagePath": "src/resources/cookie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "true",
+        "myMaxDistance": "1000",
+        "myMoveSpeed": "1",
+        "myTurnSpeed": "1",
+        "myMovementCalc": "GreedyMovementStrategy",
+        "myCollisionRadius": "50"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "50"
+      },
+      "myComponentName": "CollidableComponent"
+    },
+    "CreatorComponent": {
+      "myFields": {
+        "mySpawnName": "Awesome Tower2",
+        "mySpawningStrategy": "BasicSpawnStrategy",
+        "myTimeBetweenSpawns": "10"
+      },
+      "myComponentName": "CreatorComponent"
+    },
+    "SellableComponentData": {
+      "myFields": {
+        "mySellValue": "50"
+      },
+      "myComponentName": "SellableComponentData"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "50"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

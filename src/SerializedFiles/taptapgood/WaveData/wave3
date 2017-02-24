@@ -1,0 +1,9 @@
+{
+  "name": "wave3",
+  "waveEntity": "tapables",
+  "timeBetweenEnemy": 3000.0,
+  "timeUntilNextWave": 5000.0,
+  "numEnemies": 77,
+  "spawnPointName": "spawn3",
+  "sinkPointName": "3"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wave2",
+  "waveEntity": "badguy",
+  "timeBetweenEnemy": 20000.0,
+  "timeUntilNextWave": 1000000.0,
+  "numEnemies": 5,
+  "spawnPointName": "wave2",
+  "sinkPointName": "2end"
+}

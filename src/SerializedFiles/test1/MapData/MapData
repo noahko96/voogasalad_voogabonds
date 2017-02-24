@@ -1,0 +1,68 @@
+{
+  "numXCells": 2,
+  "numYCells": 2,
+  "cellSize": 50,
+  "spawnPoints": {
+    "over": [
+      {
+        "myX": 1.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      }
+    ]
+  },
+  "sinkPoints": {
+    "noah": [
+      {
+        "myX": 0.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      }
+    ]
+  },
+  "terrainList": [
+    {
+      "type": "purp",
+      "loc": {
+        "myX": 0.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x331a80ff",
+      "mySize": 293
+    },
+    {
+      "type": "purp",
+      "loc": {
+        "myX": 0.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x331a80ff",
+      "mySize": 326
+    },
+    {
+      "type": "purp",
+      "loc": {
+        "myX": 1.0,
+        "myY": 1.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x331a80ff",
+      "mySize": 293
+    },
+    {
+      "type": "purp",
+      "loc": {
+        "myX": 1.0,
+        "myY": 0.0,
+        "myZ": 0.0
+      },
+      "myColor": "0x331a80ff",
+      "mySize": 326
+    }
+  ],
+  "validTerrain": {
+    "purp": ""
+  }
+}

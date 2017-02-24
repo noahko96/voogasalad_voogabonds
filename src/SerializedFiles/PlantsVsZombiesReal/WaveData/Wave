@@ -1,0 +1,9 @@
+{
+  "name": "Wave",
+  "waveEntity": "Zombie",
+  "timeBetweenEnemy": 10.0,
+  "timeUntilNextWave": 100.0,
+  "numEnemies": 10,
+  "spawnPointName": "spawn1",
+  "sinkPointName": "spawn1"
+}

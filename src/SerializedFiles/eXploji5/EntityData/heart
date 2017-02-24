@@ -1,0 +1,49 @@
+{
+  "myName": "heart",
+  "myComponents": {
+    "DamageDealingComponent": {
+      "myFields": {
+        "explodesOnEnemies": "True",
+        "myDamageRadius": "3",
+        "explodesOnAllies": "False",
+        "diesOnExplosion": "True",
+        "myDamageArc": "100",
+        "myDamage": "100",
+        "myDamageStrategy": "BinaryDamageStrategy"
+      },
+      "myComponentName": "DamageDealingComponent"
+    },
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "us"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "0.4",
+        "myValidTerrains": "grass, water",
+        "myImagePath": "resources/heart.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "False",
+        "myMaxDistance": "10000",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "1",
+        "myTurnSpeed": "10",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "5"
+      },
+      "myComponentName": "CollidableComponent"
+    }
+  }
+}

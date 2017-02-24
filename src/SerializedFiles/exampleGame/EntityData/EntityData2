@@ -1,0 +1,33 @@
+{
+  "myName": "Awesome Tower2",
+  "myComponents": {
+    "HealthComponent": {
+      "myFields": {
+        "myMaxHealth": "9000",
+        "myCurrHealth": "9000"
+      },
+      "myComponentName": "HealthComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "50",
+        "myValidTerrains": "grass, ice, steel, dark",
+        "myHeading": "0",
+        "myImagePath": "src/resources/cow.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "SellableComponentData": {
+      "myFields": {
+        "mySellValue": "50"
+      },
+      "myComponentName": "SellableComponentData"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "50"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"numXCells":2,"numYCells":2,"spawnPoints":[{"x":0,"y":0}],"sinkPoints":[{"x":1,"y":1}],"terrainList":[{"type":"grass","loc":{"x":0,"y":0}},{"type":"water","loc":{"x":0,"y":1}}]}

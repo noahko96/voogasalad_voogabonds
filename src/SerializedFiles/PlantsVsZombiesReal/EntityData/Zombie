@@ -1,0 +1,38 @@
+{
+  "myName": "Zombie",
+  "myComponents": {
+    "HealthComponent": {
+      "myFields": {
+        "myMaxHealth": "900",
+        "explodeOnDeath": "True"
+      },
+      "myComponentName": "HealthComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "Grass",
+        "myImagePath": "resources\\zombie.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "False",
+        "myMaxDistance": "10000",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "100",
+        "myTurnSpeed": "100",
+        "myMovementCalc": "PathMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "CollidableComponent": {
+      "myFields": {
+        "myCollisionRadius": "100"
+      },
+      "myComponentName": "CollidableComponent"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "myName": "tapables",
+  "myComponents": {
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "team1"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "1",
+        "myValidTerrains": "ice",
+        "myImagePath": "resources/balloon.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    
+    "CollidableComponent": {
+	    "myFields": {
+	        "myCollisionRadius": "100"
+	      },
+	      "myComponentName": "CollidableComponent"
+    },
+    
+     "HealthComponent": {
+	    "myFields": {
+	        "myMaxHealth": "1",
+	        "explodeOnDeath":"false"
+	      },
+	      "myComponentName": "HealthComponent"
+    },
+    
+    "MoveableComponent": {
+      "myFields": {
+        "removeOnGoal": "True",
+        "explodesOnGoal": "False",
+        "myMaxDistance": "10000",
+        "explodesAtMaxDistance": "False",
+        "myMoveSpeed": "3",
+        "myTurnSpeed": "3",
+        "myMovementCalc": "GreedyMovementStrategy"
+      },
+      "myComponentName": "MoveableComponent"
+    },
+    "BountyComponent": {
+      "myFields": {
+        "myBountyValue": "100",
+        "myLivesToDestroy": "1",
+        "myPointValue": "100"
+      },
+      "myComponentName": "BountyComponent"
+    },
+    "SellableComponentData": {
+      "myFields": {
+        "mySellValue": "50"
+      },
+      "myComponentName": "SellableComponentData"
+    }
+  }
+}

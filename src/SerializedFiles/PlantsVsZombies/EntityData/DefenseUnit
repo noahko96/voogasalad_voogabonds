@@ -1,0 +1,46 @@
+{
+  "myName": "DefenseUnit",
+  "myComponents": {
+    "DamageDealingComponent": {
+      "myFields": {
+        "explodesOnEnemies": "False",
+        "myDamageRadius": "50",
+        "explodesOnAllies": "False",
+        "diesOnExplosion": "False",
+        "myDamageArc": "50",
+        "myDamage": "500",
+        "myDamageStrategy": "BinaryDamageStrategy"
+      },
+      "myComponentName": "DamageDealingComponent"
+    },
+    "TeamComponent": {
+      "myFields": {
+        "myTeamID": "us"
+      },
+      "myComponentName": "TeamComponent"
+    },
+    "PhysicalComponent": {
+      "myFields": {
+        "myImageSize": "50",
+        "myValidTerrains": "Grass",
+        "myImagePath": "resources\\cow.png"
+      },
+      "myComponentName": "PhysicalComponent"
+    },
+    "TargetingComponent": {
+      "myFields": {
+        "myTargetsEnemies": "True",
+        "myTargetingStrategy": "BadTargetingStrategy",
+        "mySightRange": "1000",
+        "mySightWidth": "50"
+      },
+      "myComponentName": "TargetingComponent"
+    },
+    "PurchasableComponentData": {
+      "myFields": {
+        "myPurchaseValue": "1000"
+      },
+      "myComponentName": "PurchasableComponentData"
+    }
+  }
+}
